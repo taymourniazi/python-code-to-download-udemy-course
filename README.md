@@ -18,4 +18,5 @@ youtube-dl -u <username> -p <password> -f <desired-format> -o './videos/%(playli
 youtube-dl <url> --cookies <cookies-filename> --playlist-items "<comma-separated-indices>"
 
 # Skip specific indices
+
 youtube-dl <url> --cookies <cookies-filename> --playlist-start START_NUMBER
